@@ -18,7 +18,8 @@
 }
 
 .navbar li {
-  float:left
+  float:left;
+  font-weight: 900;
 }
 
 .navbar li a {
@@ -29,7 +30,7 @@
 }
 
 .navbar li a:hover{
-  background-color: #8bd3dd;
+  background-color: #f4e5cf;
 }
 
 
@@ -47,4 +48,13 @@ h1{
 h2{
   background-color: #f3d2c1;
   display: inline-block;
+}
+
+section > p{
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.trainings-cert > ul{
+  font-weight: 900;
 }
